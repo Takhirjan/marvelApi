@@ -1,0 +1,78 @@
+
+.class{
+    color: white;
+    font-size: 145px;
+    width: 80px;
+    height: 30px;
+    margin-bottom: 418px;
+    left: 200px;
+    position: relative;
+    font-family: sans-serif;
+    animation: flipInX; 
+  animation-duration: 4s; 
+ 
+}
+.image2{
+  width:7%;
+  margin-right:30px;
+}
+.image{
+    width:38%;
+   margin-left: -32%;
+   position: absolute;
+   display:flex;
+   animation: zoomIn; 
+   animation-duration: 4s; 
+}
+.black{
+  width: 50%;
+  height: 55%;
+  margin-top:5%;
+ 
+
+}
+.wakanda{
+  width:38%;
+  position: absolute;
+  right:12%;
+}
+.mainpage{
+  width:100%;
+  height: 500px;
+}
+.forever{
+  background-color: aliceblue;
+  top: 1%;
+}
+.ff{
+  width: 100%;
+  position: relative;
+  top: 120px;
+  height: 408px;
+}
+.container{
+  width:auto;
+  height: 100%;
+
+}
+.card{
+  width:100%;
+  height: 933px;
+  display:grid;
+  grid-template-columns:300px 300px 300px 300px;
+  grid-row-gap: 20px;
+  grid-column-gap:10px;
+ 
+}
+.card1 {
+  width: 75%;
+
+  height: 400px;
+  position: relative;
+  top: 100px;
+
+}
+.card1:hover{
+  transform: translateY(-12px);
+  transition: all .3s ease-in-out 0s;
+}
